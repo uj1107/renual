@@ -1,0 +1,162 @@
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-style: normal;
+}
+
+html {
+    font-family: 'Pretendard-Regular';
+    font-size: 18px;
+    color: #1d56bb;
+}
+
+/* header */
+.m-wrap>ul>li {
+    font-size: 8rem;
+}
+
+.m-wrap>ul>li>ul>li {
+    font-size: 2.5rem;
+}
+
+footer {
+    color: #f4f6f9;
+}
+
+footer>.sec-l>.p-wrap {
+    font-size: 0.8rem;
+
+}
+
+
+/* home */
+#home-main .sec-1 {
+    color: #f4f6f9;
+}
+
+#home-main .sec-1>.row1>p {
+    font-size: 1.8rem;
+}
+
+#home-main .sec-1>.row1>h1 {
+    font-size: 2.5rem;
+}
+
+#home-main .sec-2>p {
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+#home-main .sec-2>.before {
+    font-size: 1.2rem;
+    color: #000030;
+}
+
+#home-main .sec-2>h3 {
+    font-size: 1.5rem;
+    color: #000030;
+}
+
+#home-main .sec-2>h2 {
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+
+#home-main .sec-2>p.now {
+    font-size: 1.5rem;
+    color: #000030;
+}
+
+#home-main .sec-4>h2 {
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+#home-main .sec-4>.row1>.row1>p {
+    font-size: 2rem;
+    font-weight: 900;
+    color: #5bde84;
+}
+
+#home-main .sec-4>.row3>.dis {
+    color: #000030;
+}
+
+#home-main .sec-4>.row3>.dis>h4 {
+    font-size: 1.5rem;
+}
+
+#home-main .sec-4>.row3>.dis>p {
+    font-size: 1.2rem;
+}
+
+#home-main .sec-4>h3 {
+    font-size: 2rem;
+}
+
+/* 상세메뉴 공통*/
+.sidemenu>li {
+    color: #000030;
+}
+
+.sidemenu>li>ul {
+    color: #1d56bb;
+}
+
+.sidemenu a{
+    line-height: 2;
+}
+
+/* vision */
+#vision-main {
+    color: #000030;
+}
+
+#vision-main .banner>.row2 {
+    font-size: 2.5rem;
+}
+
+#vision-main .sec h1 {
+    font-size: 4rem;
+}
+
+#vision-main .sec h2 {
+    font-size: 2rem;
+    color: #1d56bb;
+}
+
+#vision-main .sec p {
+    font-size: 1.3rem;
+}
+
+/* CEO */
+#ceo-main .sec{
+    color: #000030;
+}
+
+#ceo-main .sec h1{
+    font-size: 2rem;
+    color: #1d56bb;
+}
+
+#ceo-main .sec h1>p{
+    color: #000030;
+}
+
+#ceo-main .sec>.row1>p{
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+
+
+/* tech */
+#tech-main>.sec i{
+    font-size: 5rem;
+}
+#tech-main>.sec h1{
+    font-size: 2rem;
+}
+#tech-main>.sec p {
+    font-size: 1.5rem;
+    line-height: 2;
+}

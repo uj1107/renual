@@ -1,0 +1,93 @@
+#m-com {
+    color: #000030;
+
+}
+
+/* main 메인 */
+.banner {
+    width: 100%;
+    height: 350px;
+
+    display: flex;
+}
+
+.banner>.row1 {
+    flex: 1;
+
+    margin-right: 40px;
+
+    background-image: url(/img/vision.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner>.row2 {
+    flex: 1;
+
+    line-height: 1.5;
+
+    background-color: white;
+
+    position: relative;
+}
+
+.banner>.row2>h1 {
+    width: 90%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+}
+
+.sec {
+    width: 100%;
+    height: 850px;
+
+    margin-top: 100px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.sec>div {
+    width: 100%;
+    flex: 1;
+
+    text-align: center;
+}
+
+.sec>.col1 {
+    margin-bottom: 50px;
+
+    display: flex;
+}
+
+.sec>.col1>div {
+    flex: 1;
+    margin-right: 40px;
+    padding-top: 25px;
+    box-sizing: border-box;
+
+    background-color: white;
+}
+
+.sec>.col2{
+    background-color: white;
+}
+
+.sec h2{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.sec p{
+    width: 85%;
+    line-height: 1.8;
+}
+
+.sec img{
+    width: 150px;
+    height: 150px;
+    margin-top: 50px;
+}

@@ -1,0 +1,76 @@
+#m-com {
+    color: #000030;
+
+}
+
+.main {
+    position: relative;
+    height: 1100px;
+}
+
+.main>.sec {
+    width: 100%;
+    height: 250px;
+
+    margin-bottom: 25px;
+
+    background-color: white;
+
+    text-align: center;
+
+    position: absolute;
+    z-index: 1;
+    transform: translateX(-50%);
+    left: 50%;
+
+    transition: 1s;
+}
+
+.main>.sec1 {
+    top: 175px;
+}
+
+.main>.sec2 {
+    top: 450px;
+}
+
+.main>.sec3 {
+    top: 725px;
+}
+
+.main>.sec .wrap{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 125px;
+}
+
+.main>.sec p {
+    color: transparent;
+
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+
+    transition: 0.3s;
+}
+
+.main>.on {
+    height: 800px;
+    z-index: 10;
+
+    transition: 1s;
+}
+
+.main>.sec2.on,
+.main>.sec3.on {
+    top: 175px;
+}
+
+
+.main>.on p {
+    color: #000030;
+    transition-delay: 0.5s;
+    transition: 1s;
+}
